@@ -63,7 +63,7 @@ class main:
 
           self.order_payload = {"fullName":"","payerName":"","contactNumber":"","deliveryAddress":{"addressType":"postal","addressee":"","organisationName":"","buildingNameNumber":"","line1":"","line2":"","line3":"","line4":"","postcode":"","countryCode":""},"payment":{"method":"credit","consentToReuse":"null"},"deliverySelection":{"groupSelections":[{"deliveryOptionType":1, "groupId":0, "subDeliveryOptionIndex":"null","used":True}],"deliveryOptionsRequest":{"country":"","postCode":"","state":"","townCity":""}},"consentGiven":True,"reCaptchaToken":"","deviceInformation":{"deviceId":"4ad2ff8fa0959d5b5a27e6bf8b45fb99","screenResolution":{"width":"1440","height":"2560","ratio":"1"},"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36","timezone":"Europe/London","language":"en-GB","acceptHeader":"application/json","colorDepth":"24","timeZoneOffset":"-60","javaEnabled":False}}
 
-          self.delivery_payload = {"country":"GB","postCode":"TN25 4QS","state":"","townCity":""}     
+          self.delivery_payload = {"country":"GB","postCode":"","state":"","townCity":""}     
 
           if "@" not in self.catchall:
                self.catchall = f"@{self.catchall}" 
